@@ -1,3 +1,3 @@
 TicTacToe game made using React!
 
-![Screenshot](../master/public/tictactoe.png)
+![Screenshot](../master/public/tictactoe.PNG)
