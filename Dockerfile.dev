@@ -1,0 +1,11 @@
+# base image
+FROM node:13.12.0-alpine as build
+
+WORKDIR /
+COPY . ./
+
+# we can add --slient to npm install if required
+RUN npm install
+
+
+CMD npm start

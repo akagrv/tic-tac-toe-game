@@ -13,7 +13,7 @@ const Square = ({ value, onClick }) => (
   <button style={buttonStyle} onClick={onClick}>
     <span
       style={
-        value == "X"
+        value === "X"
           ? { color: "green", textShadow: "2px 2px #333" }
           : { color: "red", textShadow: "2px 2px #333" }
       }
